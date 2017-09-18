@@ -1,0 +1,3 @@
+computerone.jacobszone.com, jacobszone.com, 123123123123, 45.58.45.7
+apexdemo.jacobszone.com, jacobszone.com, 123123123123, 69.28.82.52
+csgiapex.localdoman,localdomain,321321321321,45.58.41.131

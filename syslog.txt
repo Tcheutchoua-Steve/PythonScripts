@@ -1,0 +1,5 @@
+Jul 16 10:24:58 localhost kernel: ll header: ff:ff:ff:ff:ff:ff:00:00:2d:3a:2d:07:08:00
+Jul 16 10:24:58 localhost kernel: martian source 45.58.45.255 from 45.58.45.7, on dev eth1
+Jul 16 10:24:58 localhost kernel: ll header: ff:ff:ff:ff:ff:ff:00:00:2d:3a:2d:07:08:00
+Jul 16 10:24:59 localhost dhclient[27852]: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14 (xid=0x398d5754)
+Jul 16 10:24:59 localhost kernel: martian source 45.58.45.255 from 45.58.45.7, on dev eth1
