@@ -41,6 +41,9 @@ def handleSolver():
     print(str(mailboxes))
     iteration = 2
 
+    mailboxes_string = ' '.join(str(mailboxes_item) for mailboxes_item in mailboxes )
+    mailboxes_string_lower = mailboxes_string.lower()
+    mailboxes = mailboxes_string_lower.split()
     while iteration < size:
         for i in range(iteration,size,iteration):
             if ((mailboxes[i] is 'c') or  (mailboxes[i] is'C')) :
@@ -50,7 +53,10 @@ def handleSolver():
             #print("new mb" + str(mailboxes))
         print(str(mailboxes) + " iteration is " + str(iteration))
         #mailboxes = [item.lower() for item in mailboxes]
-
+        mailboxes_string = ' '.join(str(mailboxes_item) for mailboxes_item in mailboxes )
+        mailboxes_string_lower = mailboxes_string.lower()
+        mailboxes = mailboxes_string_lower.split()
+        #print('new mailbox is' + str(mailboxes))
         iteration = iteration + 1
 
 def initializeVars() :
