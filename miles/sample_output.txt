@@ -1,0 +1,7 @@
+				Field 						County 					Dept 			Cummulative Prod 			Gravity 
+**************************************************************************************************************************			
+BATESVILLE, SOUTH (SAN MIGUEL)				06101500 ZAVALA 		400  				322704					GRAV:28.0
+BATESVILLE, SW. (SAN MIGUEL)     		06105700 ZAVALA             3360    			162208					GRAV:27.0
+BEAR CREEK                       		06469001 MEDINA             2209				2748786					GRAV:39.0
+
+line 2355       BATESVILLE,SOUTH(SAN MIGUEL,SEGA 06101520 ZAVALA
