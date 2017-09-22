@@ -1,0 +1,25 @@
+#DICTIONARY FILE
+# Format is: FQDN, Domainname, ReferenceNumber, Ipaddress. 
+#
+#
+apexdemo.jacobszone.com,jacobszone.com,55555555555,69.28.82.52
+csgiapex.jacobs-home.com,jacobs-home.com,321321321321,45.58.41.131
+metrics.jacobszone.com,jacobszone.com,123123123123,45.58.45.7
+#
+apexdemo2.jacobszone.com,jacobszone.com,123123123123,69.28.82.53
+csgiapex2.connor-jacobs.com,connor-jacobs.com,111111111111,45.58.41.132
+metrics2.connor-jacobs.com,connor-jacobs.com,111111111111,45.58.45.8
+#
+apexdemo3.jacobszone.com,jacobszone.com,234234234234,69.28.82.54
+csgiapex3.connor-jacobs.com,connor-jacobs.com,222222222222,45.58.41.134
+metrics3.connor-jacobs.com,connor-jacobs.com,222222222222,45.58.45.9
+#
+apexdemo4.jacobszone.com,jacobszone.com,345345345345,69.28.82.55
+csgiapex4.connor-jacobs.com,connor-jacobs.com,333333333333,45.58.41.135
+metrics4.connor-jacobs.com,connor-jacobs.com,333333333333,45.58.45.1
+#
+#
+#  200000 more and different kinds
+#
+#
+# End of File
