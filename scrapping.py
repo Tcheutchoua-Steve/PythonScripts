@@ -1,3 +1,4 @@
+"""
 #import urllib.request
 import urllib
 #from bs4 import BeautifulSoup
@@ -15,3 +16,4 @@ tags = soup.findAll('h4')
 
 for tag in tags :
     print tag
+"""

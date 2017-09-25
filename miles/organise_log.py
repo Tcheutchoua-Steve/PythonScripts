@@ -6,7 +6,6 @@ import sys
 import argparse
 
 generated_line = None
-#dl = dh = cpl = cph = gl = gh  = None
 def filterfile (log_file, output_file) :
     global generated_line
 
