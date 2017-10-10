@@ -18,3 +18,6 @@ aList = ['123', 'xyz', 'zara', 'abc', 'xyz']
 
 aList.sort()
 print ("List : ", aList)
+
+test_list = ["server"+str(i+1) for i in range(5)]
+print(test_list)
