@@ -2,6 +2,7 @@
 
 import conversions
 import unittest
+import conversions_refractored
 
 ############################################     Celcius Conversions         ###################################################
 
@@ -34,8 +35,6 @@ class SomeCelciusValuesToFahrenheit (unittest.TestCase) :
         print("Checking if the conversion of -140.00 C is -220.00F")
         self.assertAlmostEqual(-220.00, conversions.convertCelciusToFahrenheit(-140.00) , places=2)
 
-
-
 class CelciusToKelvinBadInput(unittest.TestCase) :
     """Test fails with integer given as input"""
     def testIntegerInput(self):
@@ -55,7 +54,6 @@ class CelciusToFahrenheitBadInput(unittest.TestCase) :
         print("Check if aa produces type error")
         self.assertRaises(conversions.TypeError,conversions.convertCelciusToFahrenheit, "aa")
 
-
 ############################################     Fahrenheit Conversions         ###################################################
 
 class SomeFahrenheitValuestoKelvins(unittest.TestCase) :
@@ -71,7 +69,6 @@ class SomeFahrenheitValuestoCelcius(unittest.TestCase) :
     def testFromFahrenheitToCelciusPositive(self):
         print("Checking if the conversion of 932.00F is 500.15C")
         self.assertAlmostEqual(500.00, conversions.convertFahrenheitToCelcius(932.00) , places=2)
-
 
 class FahrenheitToCelciusBadInput(unittest.TestCase) :
     def testIntegerInput(self):
@@ -119,6 +116,19 @@ class KelvintoCelciusBadInput(unittest.TestCase) :
     def testStringInput(self):
         print("Check if aa produces type error")
         self.assertRaises(conversions.TypeError,conversions.convertKelvinToCelcius, "aa")
+
+
+#******************************************************     Check if Temperature Conversions are working **************************************
+class CelciusToKelvin (unittest.TestCase):
+    def testFromCelciusToKelvin(self):
+        print("Checking if Combined Convertion converts celcius to kelvin , 500 to 773.15")
+        self.assertAlmostEqual(conversions_refractored.convert("celcius","kelvin",500.00) ,773.15, places=2)
+
+
+class CelciusToFahrenheit(unittest.TestCase):
+    def testFromCelciusToFahrenheit(self):
+        print("Checking if Combined Convertion converts celcius to fahrenheit , 0.0 to 32")
+        self.assertAlmostEqual(conversions_refractored.convert("celcius","fahrenheit",00.00) ,32, places=2)
 
 if __name__ == '__main__':
     unittest.main()
